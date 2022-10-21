@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test general and html results",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_pytest_results.py ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
